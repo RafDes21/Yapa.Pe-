@@ -15,6 +15,7 @@ header{
     width: 100vw;
     top: 0;
     z-index: 1;
+    background: linear-gradient(0deg, rgba(34,137,195,1) 4%, rgba(41,201,162,1) 81%);
 }
 nav a .logo{
     height: 80px;
@@ -31,7 +32,12 @@ nav a .logo{
     display: flex;
     justify-content: space-around;
     width: 80%;
+    
 }
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+}
+
 
 div.menu{
     background-image: url(img/machu-picchu.jpg);
@@ -40,7 +46,7 @@ div.menu{
 }
 .card{
     height: 500px;
-    width: 60%;
+    width: 65%;
     margin-top: 20px;
     margin-bottom: 20px;
     

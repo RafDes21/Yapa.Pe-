@@ -1,9 +1,10 @@
 section {
-  height: 400px;
+  height: auto;
 }
 
 .row .col-md-12 h2 {
-  padding-top: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 * {
@@ -12,6 +13,10 @@ section {
 
 .contacto {
   height: 100%;
+}
+
+.row {
+  margin: 0 !important;
 }
 
 form {
@@ -73,8 +78,9 @@ iframe {
 }
 
 footer {
-  height: 400px;
-  background-color: darkgreen;
+  height: auto;
+  background: linear-gradient(0deg, #2289c3 4%, #29c9a2 81%);
+  margin-top: 40px;
 }
 
 .logo_footer {
@@ -89,8 +95,26 @@ footer {
 
 .datos_footer {
   border-left: 2px solid #000;
-  height: 300px;
+  height: 200px;
   margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+li {
+  height: 50px;
+  width: 50px;
+  list-style: none;
+  width: 100px;
+  padding: 0;
+  margin: 0;
+}
+
+.bi {
+  color: #000;
+}
+
+.icons ul {
+  height: 110px;
 }
 
 body {
@@ -106,6 +130,7 @@ header {
   width: 100vw;
   top: 0;
   z-index: 1;
+  background: linear-gradient(0deg, #2289c3 4%, #29c9a2 81%);
 }
 
 nav a .logo {
@@ -124,6 +149,10 @@ nav a .logo {
   width: 80%;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+  color: black;
+}
+
 div.menu {
   background-image: url(img/machu-picchu.jpg);
   background-position: center;
@@ -131,7 +160,7 @@ div.menu {
 
 .card {
   height: 500px;
-  width: 60%;
+  width: 65%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
