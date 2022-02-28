@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" integrity="sha384-ejwKkLla8gPP8t2u0eQyL0Q/4ItcnyveF505U0NIobD/SMsNyXrLti6CWaD0L52l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"
+        integrity="sha384-ejwKkLla8gPP8t2u0eQyL0Q/4ItcnyveF505U0NIobD/SMsNyXrLti6CWaD0L52l" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos.css">
     <title>Yapa.Pe</title>
 </head>
@@ -18,7 +19,7 @@
 
         <nav class="navbar navbar-expand-md navbar-dark ">
             <!-- Brand -->
-            <a class="navbar-brand " href="#"><img class="logo" src="img/Logo.png" alt=""></a>
+            <a class="navbar-brand " href="#home"><img class="logo" src="img/Logo.png" alt=""></a>
 
             <!-- Toggler/collapsibe Button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -29,16 +30,16 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Inicio</a>
+                        <a class="nav-link" href="#home">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pedidos</a>
+                        <a class="nav-link" href="#platos-criollos">Pedidos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Ubicación</a>
+                        <a class="nav-link" href="#contact">Ubicación</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Galeria</a>
+                        <a class="nav-link" href="#demo">Galeria</a>
                     </li>
                 </ul>
             </div>
@@ -46,7 +47,7 @@
     </header>
     <!--Nav-Final-->
     <!--Sección-Inicio-->
-    <main>
+    <main id="home">
         <div class="container-fluid m-0 p-0 menu">
             <div class="row m-0 p-0">
                 <div class="col-md-6 card1">
@@ -58,7 +59,7 @@
                                 officiis tempora neque harum quia quasi consequuntur perferendis ipsam reprehenderit
                                 voluptatibus iure quaerat mollitia, velit placea.</p>
                         </div>
-                        <a href="#" class="btn btn-primary">See Profile</a>
+                        <a href="#platos-criollos" class="btn btn-primary">See Profile</a>
                     </div>
                 </div>
                 <div class="col-md-6 card1">
@@ -71,7 +72,7 @@
                                 ducimus in tempora facilis ut, nulla voluptate perspiciatis explicabo soluta molestiae
                                 adipisci iste fuga suscipit dignissimos tenetur cupiditate?</p>
                         </div>
-                        <a href="#" class="btn btn-primary">See Profile</a>
+                        <a href="#postres" class="btn btn-primary">See Profile</a>
                     </div>
                 </div>
 
@@ -113,6 +114,60 @@
     </section>
 
     <!--Sección-Final-->
+    <!--platos incio-->
+    <aside id="platos-criollos">
+    <div class="container-fluid m-0 p-0">
+        <div class="row m-0 p-0">
+            
+            <div class="col-md-3 ">
+                <img class="plato" src="img/plato1.jpg" alt="">
+                ceviche
+            </div>
+            <div class="col-md-3">
+                <img class="plato" src="img/plato1.jpg" alt="">
+                ceviche
+            </div>
+            <div class="col-md-3">
+                <img class="plato" src="img/plato1.jpg" alt="">
+                ceviche
+            </div>
+            <div class="col-md-3">
+                <img class="plato" src="img/plato1.jpg" alt="">
+                ceviche
+            </div>
+
+        </div>
+
+    </div>
+</aside>
+<!--platos final-->
+<!--postre incio-->
+<aside id="postres">
+    <div class="container-fluid m-0 p-0">
+        <div class="row m-0 p-0">
+            
+            <div class="col-md-3 ">
+                <img class="plato" src="img/plato1.jpg" alt="">
+                ceviche
+            </div>
+            <div class="col-md-3">
+                <img class="plato" src="img/plato1.jpg" alt="">
+                ceviche
+            </div>
+            <div class="col-md-3">
+                <img class="plato" src="img/plato1.jpg" alt="">
+                ceviche
+            </div>
+            <div class="col-md-3">
+                <img class="plato" src="img/plato1.jpg" alt="">
+                ceviche
+            </div>
+
+        </div>
+
+    </div>
+</aside>
+<!--postre final-->
     <!--carrusel-Incio-->
     <div id="demo" class="carousel slide" data-ride="carousel">
 
@@ -148,7 +203,7 @@
 
     <!--carrusel-Final-->
     <!--contacto-Incio-->
-    <section class="contacto">
+    <section id="contact" class="contacto">
         <div class="container-fluid">
             <h2 class="text-center pt-4">contacto</h2>
             <div class="row m-0">
@@ -201,7 +256,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="row">
-                        <div class="col-md-4 logo_footer"></div>
+                        <div  class="col-md-4 logo_footer"></div>
                         <div class="col-md-2"></div>
                         <div class="col-md-6 datos_footer">
                             <div class="icons">

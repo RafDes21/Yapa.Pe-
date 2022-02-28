@@ -1,14 +1,17 @@
 @import "_section.scss";
 @import "_contacto.scss";
 @import "_footer.scss";
-
+@import "_plato.scss";
 
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    padding-top: 106px;
+    
     height: 100%;
+}
+main{
+    padding-top: 106px; 
 }
 header{
     position: fixed;
@@ -78,6 +81,9 @@ div.card1{
     margin-bottom: 4%;
     width: 40%;
     margin-left: 30%;
+}
+#demo{
+    padding-top: 106px;
 }
 .carousel-item{
     height: auto;
